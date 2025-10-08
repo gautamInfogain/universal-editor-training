@@ -7,17 +7,6 @@
   position: relative;
   padding: 40px 24px;
   min-height: 300px;
-  z-index: 0;
-}
-
-/* Overlay for better text contrast */
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  background: var(--hero-overlay, linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%));
-  pointer-events: none;
 }
 
 .hero h1 {
@@ -25,49 +14,6 @@
   margin-left: auto;
   margin-right: auto;
   color: white;
-}
-
-/* Hero content container */
-.hero .hero-content {
-  position: relative;
-  z-index: 1;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.hero h1,
-.hero p,
-.hero div {
-  position: relative;
-  z-index: 1;
-}
-
-/* CTA Button styling */
-.hero .button-container {
-  margin-top: 24px;
-  text-align: center;
-}
-
-.hero .button-container a {
-  display: inline-block;
-  padding: var(--hero-button-padding, 12px 24px);
-  background-color: var(--hero-button-bg, #ff6600);
-  color: var(--hero-button-color, white);
-  text-decoration: none;
-  border-radius: var(--hero-button-radius, 4px);
-  font-weight: var(--hero-button-weight, 600);
-  font-size: var(--hero-button-size, 16px);
-  transition: all 0.3s ease;
-  border: var(--hero-button-border, 2px solid transparent);
-  position: relative;
-  z-index: 1;
-}
-
-.hero .button-container a:hover {
-  background-color: var(--hero-button-hover-bg, #e55a00);
-  transform: var(--hero-button-hover-transform, translateY(-2px));
-  box-shadow: var(--hero-button-hover-shadow, 0 4px 12px rgba(0, 0, 0, 0.3));
 }
 
 .hero picture {

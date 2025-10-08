@@ -40,13 +40,6 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
-        },
-       {
-          "component": "button",
-          "name": "ctaButton",
-          "value": "Connect",
-          "label": "ctaButton",
-          "valueType": "string"
         }
       ]
     }
