@@ -1,8 +1,8 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/Gautam-Universal-Editor/:/",
+    "/content/Gautam-Universal-Editor/configuration:/.helix/config.json",
+    "/content/Gautam-Universal-Editor/metadata:/metadata.json"
   ],
   "includes": [
     "/content/Gautam-Universal-Editor/"
