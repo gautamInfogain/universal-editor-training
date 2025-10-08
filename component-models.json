@@ -215,9 +215,9 @@
       },
       {
         "component": "button",
-        "name": "Button",
-        "value": "Click",
-        "label": "Button",
+        "name": "ctaButton",
+        "value": "Connect",
+        "label": "ctaButton",
         "valueType": "string"
       }
     ]
