@@ -216,7 +216,7 @@
     ]
   },
     {
-    "id": "testimonies",
+    "id": "testimony",
     "fields": [
       {
         "component": "text",
