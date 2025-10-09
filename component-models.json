@@ -214,5 +214,29 @@
         "valueType": "string"
       }
     ]
+  },
+    {
+    "id": "testimonies",
+    "fields": [
+      {
+        "component": "text",
+        "name": "clientName",
+        "label": "Client Name",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "feedback",
+        "label": "Feedback",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "clientImage",
+        "label": "Client Image",
+        "valueType": "string",
+        "multi": false
+      }
+    ]
   }
 ]
